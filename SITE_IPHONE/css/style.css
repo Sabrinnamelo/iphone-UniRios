@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    background-color: #000;
+    margin-bottom: 10px;
+}
+
+#cabecalho img {
+    width: 30px;
+}
+#cabecalho #menu ul{
+    display: flex;
+}
+#cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cabecalho #menu a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    transition: all 0.4s linear;
+}
+#cabecalho #menu a:hover{
+    background-color: #069;
+
+}
+#cabecalho #menu ul li{
+    list-style: none;
+    position: relative;
+}
+#cabecalho #menu ul li:hover .submenu{
+    display: block;
+}
+#cabecalho #menu .submenu{
+    display: none; /*oculta a tag da página*/
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    width: 150px;
+}
+#cabecalho #menu .submenu a{
+    border-bottom: 1px #444 solid;
+    padding: 10ppx;
+}
+.titulo_secao{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#historia img{
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 20px;
+}
+#historia p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+#rodape{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 30px;
+}
