@@ -7,7 +7,7 @@ $(document).ready(function () {
         // mode: 'vertical' //de cima para baixo
     });
 
-    $('#fotos #galeria').magnificPopup({
+    $('#galeria').magnificPopup({
         delegate: 'a',
         type: 'image',
         closeOnContentClick: false,

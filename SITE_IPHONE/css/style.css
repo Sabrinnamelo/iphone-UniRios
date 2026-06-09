@@ -71,6 +71,25 @@
     text-align: justify;
     margin-bottom: 15px;
 }
+#galeria{
+    display: grid; /*elemento pai*/
+    grid-template-columns: 1fr 1fr 1fr 1fr; /*três colunas*/
+    gap: 20px;
+
+}
+#galeria img:hover{
+    transform: scale(1.1);
+}
+#galeria img{
+    display: block;
+    width: 100%;
+    transition: all 0.2s linear;
+}
+#videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 #rodape{
     background-color: black;
     text-align: center;
